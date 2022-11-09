@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PiSignage_for_Android_TV.iml" filepath="$PROJECT_DIR$/.idea/modules/PiSignage_for_Android_TV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PiSignage_for_Android_TV.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PiSignage_for_Android_TV.app.iml" />
+    </modules>
+  </component>
+</project>
