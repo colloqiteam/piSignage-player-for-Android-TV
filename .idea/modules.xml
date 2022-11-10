@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PiSignage_for_Android_TV.iml" filepath="$PROJECT_DIR$/.idea/modules/PiSignage_for_Android_TV.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PiSignage_for_Android_TV.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PiSignage_for_Android_TV.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PiSignage_for_Android_TV.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PiSignage_for_Android_TV.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PiSignage_for_Android_TV.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PiSignage_for_Android_TV.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PiSignage_for_Android_TV.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PiSignage_for_Android_TV.app.unitTest.iml" />
     </modules>
   </component>
 </project>

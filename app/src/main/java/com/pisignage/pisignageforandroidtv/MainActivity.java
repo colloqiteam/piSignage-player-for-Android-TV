@@ -25,4 +25,11 @@ public class MainActivity extends Activity {
 
         webView.loadUrl("https://pisignage.com/player2/index.html");
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        WebView webView = (WebView) findViewById(R.id.main_webview);
+        webView.setWebChromeClient(new WebChromeClientCustomPoster()); // to hide PLAY button before playing videos
+    }
 }
