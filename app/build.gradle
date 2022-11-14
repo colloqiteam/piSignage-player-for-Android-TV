@@ -7,10 +7,10 @@ android {
 
     defaultConfig {
         applicationId "com.pisignage.pisignageforandroidtv"
-        minSdk 29
+        minSdk 21
         targetSdk 32
-        versionCode 3
-        versionName "4.7.5.1"
+        versionCode 4
+        versionName "4.7.5.2"
 
     }
 
