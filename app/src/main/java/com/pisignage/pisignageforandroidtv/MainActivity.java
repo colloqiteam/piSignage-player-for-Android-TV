@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.view.WindowManager;
 
 import android.util.Log;
 //import android.widget.Toast;
@@ -28,7 +29,7 @@ public class MainActivity extends Activity {
         WebView webView = (WebView) findViewById(R.id.main_webview);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setMediaPlaybackRequiresUserGesture(false); // to enable audio in video/audio files without requiring User gesture
-        // getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON); // to disable ambient mode in android TV - not needed now since it is working without this.
+        getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON); // to disable ambient mode in android TV - ambient mode shows up when static content is displayed like iframes/images
         webView.setWebViewClient(new WebViewClient());
 
         // https://stackoverflow.com/questions/18271991/html5-video-remove-overlay-play-icon
