@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.pisignage.pisignageforandroidtv"
-    tools:ignore="MissingLeanbackLauncher">
+    package="com.pisignage.pisignageforandroidtv">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -32,7 +31,6 @@
             android:banner="@drawable/banner"
             android:icon="@drawable/pisignage"
             android:logo="@drawable/pisignage"
-            android:screenOrientation="landscape"
             tools:ignore="WrongManifestParent"
             android:exported="true">
             <intent-filter>
